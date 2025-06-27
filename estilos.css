@@ -204,10 +204,28 @@ main{
 }
 
 .section-cont-der{
-    width: 350%;
+    width:100%;
+
     
 }
 
-.contacto der{
-    justify-content:first baseline ;
+.der{
+    padding: 5% ;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.bajadas-perfil{
+    color: rgb(143, 141, 139);
+    font-size: 70%;
+        
+}
+
+.contc-titulo-der{
+    display: grid;
+    grid-template-columns:  20% 1fr ;
+    
+    width: 100%;
+   
+    
 }
