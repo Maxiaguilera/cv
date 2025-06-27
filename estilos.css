@@ -167,6 +167,10 @@ main{
     padding-left: 3%;
 }
 
+.contacto a{
+    text-decoration: none;
+}
+
 #habilidades{
     display: flex;
     
