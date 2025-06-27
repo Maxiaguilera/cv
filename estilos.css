@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+
+}
+
+main{
+    display: flex;
+    
+    height: 100vh;
+    
+}
+
+#container-izq{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    position: relative;
+}
+
+#container-der{
+    background-color: blueviolet;
+    height: 100%;
+    width: 65%;
+}
+
+#arriba-cont-izq{
+    
+    height: 25%;
+    width: 100%;
+    background-color: rgb(254, 192, 1);
+}
+
+#abajo-cont-izq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 8vh;
+    background-color: rgb(34, 42, 53);;
+    
+}
+
+#cont-foto-circ{
+    width: 65%;
+    height: 12.5%;
+    border-radius: 50%;
+    border: 3px solid  rgb(254, 192, 1);
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#cont-foto-circ img{
+    width: 100%;      
+    height: 100%;      
+    object-fit: cover;
+}
+
+.nombre{
+    
+    height: 10vh;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1;
+    text-align: center;
+        
+}
+
+
+.nombre h1{
+    font-size: 1rem;
+    color: rgb(254, 192, 1); 
+    
+}
+
+.nombre h2{
+    font-size: 0.8rem;
+    color: rgb(143, 141, 139); 
+}
+
+#cont-hab-int{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    height: 100%;
+    padding-bottom: 5vh;
+    
+    
+}
+
+.contacto{
+    width: 100%;
+    height: 100%;
+    gap:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+
+    
+    
+}
+
+.contc-titulo{
+    display: grid;
+    grid-template-columns:  20% 1fr ;
+    padding: 2%;
+   
+    
+}
+
+.cont-icono{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    padding: 10%;
+    background-color: rgb(254, 192, 1);
+}
+
+.cont-icono i{
+    padding: 1%;
+    font-size: 70%;
+}
+
+.contacto-h3{
+    color: rgb(254, 192, 1);
+    font-weight:500;
+    padding-left: 4%;
+    font-size: 0.65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subrayado{
+    height: 2px;
+    width: 20%;
+    background-color:rgb(254, 192, 1); ;
+}
+
+.contacto h4{
+    color: rgb(254, 192, 1);
+    font-size: 0.5rem;
+    padding-left: 3%;
+}
+
+.contacto h5{
+    color: rgb(143, 141, 139);
+    font-size: 0.5rem;
+    padding-left: 3%;
+}
+
+#habilidades{
+    display: flex;
+    
+    justify-content: center;
+}
+
+#intereses{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.bajada-cont-hab-int{
+    display: grid;
+    grid-template-rows: repeat(1fr,5);
+    gap: 20%;
+ }
+
+.bajada-cont-hab- ul {
+    list-style-type: none;
+ }
